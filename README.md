@@ -11,8 +11,12 @@ ______ _                ___
 
 # Blog Application for FSDI 112
 
+
 ## _Running the project locally_
-python3 manage.py runserver
+
+`python3 manage.py runserver`
+
 
 ## _Link to App_
-tbd
+
+[Click Here to Visit Blog App](https://shielded-beach-08743.herokuapp.com/)
