@@ -1,0 +1,20 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-color: #F2FCF1;
+}
+
+nav {
+    background-color: #004C15;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav .navbar-brand {
+    font-size: 36px;
+}
+
+div h3 {
+    color: white;
+}
+
