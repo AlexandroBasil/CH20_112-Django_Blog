@@ -5,7 +5,7 @@ from .views import (
     BlogCreateView,
     BlogUpdateView,
     BlogDeleteView,
-    SignUpView,
+    LandingPageView,
 )
 
 
@@ -15,5 +15,5 @@ urlpatterns = [
     path('posts/new/', BlogCreateView.as_view(), name='post_new'),
     path('posts/<int:pk>/edit', BlogUpdateView.as_view(), name='post_update'),
     path('posts/<int:pk>/delete', BlogDeleteView.as_view(), name='post_delete'),
-    path('signup/', SignUpView.as_view(), name='signup')
+    path('welcome/', LandingPageView.as_view(), name='landing_page'),
 ]
